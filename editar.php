@@ -22,7 +22,7 @@ if($contenttype==="application/json"){
     
   //codigo 400, indica que a solicitaçao esta incorreta
   http_response_code(400);
-  echo json_encode(["msg"=>"<p style='color:#f00'>[error]: Usuário não cadastrado com sucesso!!!!!</p>"]);
+  echo json_encode(["msg"=>"<p style='color:#f00'>[error]: Não foi possível cadastrado usuário!!!!!</p>"]);
   }else{
                 //laço de repetiçao para ler os dados
           foreach($conteudos_dados as $chave=>$valor){
